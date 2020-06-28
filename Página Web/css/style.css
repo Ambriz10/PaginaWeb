@@ -1,0 +1,203 @@
+body{
+    font-family: sans-serif;/*tipo de letra*/
+}
+/*CLASES CSS*/
+.titulo{
+}
+.div-titulo{
+    padding-left: 45%;
+}
+
+.parrafos{
+    font-family: 'Roboto', sans-serif;
+}
+
+.gris{
+    background-color: #F87070;
+}
+/*POR DEFAULT EL DISPLAY DEL HTML VA HACER VERTICAL SI TU QUIERES
+QUE LOS ELEMENTOS APAREZCAN DE MANERA HORIZONTAL TIENES QUE ASIGNAR LA 
+PROPIEDAD DISPLAY A FLEX*/
+.division{
+    /*height altura*/
+    display: flex;
+ /*border-style:dotted;
+ border-width: 5px;   /*width ancho*/
+}
+
+
+.division-lista{
+    /*border-style:solid;
+    border-width: 5px; */  /*width ancho*/
+    width: 150px;
+}
+
+.division-img{
+    /*border-style: dashed;
+    border-width: 5px;   /*width ancho*/
+}
+
+.imagen{
+    
+    height: 500px;
+}
+
+.div-table{
+    padding-left: 35%;
+}
+
+table,th,td{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+}
+
+.form-datos{
+    padding-left: 20%;
+    border-style: solid;
+}
+
+.nombre-sexo{
+    display:flex;
+}
+
+.sexo{
+    padding-left: 20px;
+}
+
+.sable{
+    padding-left: 20px;
+}
+
+.login{
+    padding-left: 20px;
+    display: flex;
+}
+
+.contra{
+    padding-left: 20px;
+}
+
+.peliculas{
+    display: flex;
+}
+
+.boton{
+    background-color: blue;
+    color: white;
+}
+
+.registrar{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+/*.btn{
+    background-color: #000 ! important; /*ESTA PROPIEDAD DE CSS !important 
+}*/
+/*NAVBAR*/
+.navbar{
+	 background-color: #7B1FA2 ! important;
+     height: 55px ! important;
+     font-size: 20px ! important;
+     text-align: center;
+    font-family: 'Kanit', sans-serif ! important;
+	 
+}
+
+ .centrar{
+ 	padding-left: 25%;
+ }
+
+ .navbar-brand{
+   font-size: 30px ! important;
+   font-family: 'Fira Sans', sans-serif  ! important;
+ }
+ .imagenav{
+    width:30px;
+    height:30px;
+ }
+ /*CUERPO*/
+ .titulos{
+    font-family: 'Fira Sans', sans-serif   ! important;
+    font-size: 70px;
+ }
+ .titulos2{
+    font-family: 'Fira Sans', sans-serif   ! important;
+    font-size: 70px;
+    padding-left: 35%;
+ }
+ .subtitulos{
+    font-family: 'Roboto', sans-serif;
+     font-weight: bolder ! important;
+ }
+ .subtitulos2{
+    font-family: 'Roboto', sans-serif;
+     padding-left: 43%;
+     color:#FFFFFF;
+     font-size: 30px  ! important;
+     font-weight: bolder ! important;
+
+
+ }
+.justo{
+    width: 1200px;
+    text-align: justify;
+    padding-left: 28%;
+}
+.linea{
+    background-color:#7B1FA2;
+}
+.linead{
+    background-color:#E91E63;
+    height: 20px;
+}
+.fondo{
+    background-color:#FFE082;
+}
+.card{
+    width: 260px ! important;
+    border-color:#7B1FA2 ! important;
+    border-width: 1.5px ! important;
+}
+.btn{
+    background-color: #E91E63 ! important;
+    color:#FFFFFF ! important;
+    border-color: #7B1FA2  ! important;
+}
+.fondoa{
+    background-color: #D2B4DE ;
+    font-family: 'Fira Sans', sans-serif   ! important;
+    font-size: 15px;
+
+}
+.colorde{
+    background-color: #7B1FA2;
+}
+.imgt{
+    height: 250px ! important;
+}
+.tituloform
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.rdo{
+    background-color: #7B1FA2  ! important;
+    color:#FFFFFF ! important;
+    border-color: #7B1FA2  ! important;
+}
+.contform{
+    background-color: #BB8FCE ! important;
+    color: #FFFFFF;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.mensajeErroneo{
+    font-size: 20px;
+    color: #E91E63;
+    style: bolder;
+}
